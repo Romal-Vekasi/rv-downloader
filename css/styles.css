@@ -1,0 +1,37 @@
+h1.title {
+	text-align: center;
+	font-size: 20px;
+	color: #b6b6e4;
+}
+
+.link-list {
+	width: 300px;
+	list-style: none;
+	padding: 10px;
+}
+
+.link {
+	margin: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.link__name {
+	font-weight: bold;
+	font-size: 12px;
+	color: #222;
+}
+
+.link__btn {
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #b6b6e4;
+	border: 1px solid;
+}
+
+.link__btn:hover {
+	border-color: #9e9eef;
+	background: #b6b6e4;
+	color: #fff;
+}

@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Romal Vekasi's Extension",
+	"version": "1.0",
+
+	"description": "A simple assistant for getting video download links.",
+	"icons": {
+		"32": "images/icon.png"
+	},
+
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_title": "RVdownloader",
+		"default_popup": "popup.html"
+	},
+
+	"background": {
+	    "scripts": ["js/rv-downloader.js"],
+	    "persistent": true
+	},
+
+	"permissions": [
+		"webRequest",
+		"<all_urls>"
+	]
+}
